@@ -15,4 +15,4 @@ cd CICD
 git checkout $CICD_BRANCH
 cd ..
 
-exec ./CICD/bootstrap.sh paas build
+exec ./CICD/bootstrap.sh $1 $2
