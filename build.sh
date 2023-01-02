@@ -2,6 +2,7 @@
 ## This file representes actually the agent of the deployment as Jenkins 
 # export APP_NAME=<YOUR_APPL_DIRECTORY_NAME>
 export APP_NAME=TNGR_APP
+export SOURCE_CODE_BRANCH=develop
 export CICD_PROJECT_BRANCH_NAME=develop
 export CICD_PROJECT_DIR=CICD_TNGR_APP
 export CICD_PROJECT_REPO=git@github.com:mblal/TNGR_APP_CIDC.git
